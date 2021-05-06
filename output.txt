@@ -1,0 +1,4 @@
+  File "main.py", line 40
+    print("Pincode:"+pin_code+" Available capacity :"+str(available_capacity),flush=True)
+                                                                                   ^
+SyntaxError: invalid syntax
