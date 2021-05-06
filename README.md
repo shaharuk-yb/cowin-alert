@@ -13,4 +13,5 @@ This app will make siren sound when there is any vaccine availability in a given
     pip install -r requirements.txt
     nohup Python -W ignore main.py > output.txt &
 ```
-3. It prints the pin code(in output.txt) and starts siren noise and exits
+3. Pass correct date to crawl_cowin(main.py:67) method , format is dd-mm-yyyy
+4. It prints the pin code(in output.txt) and starts siren noise and exits
